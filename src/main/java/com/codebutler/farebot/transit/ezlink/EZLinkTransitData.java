@@ -314,6 +314,7 @@ public class EZLinkTransitData extends TransitData {
 
     // Data snagged from http://www.sgwiki.com/wiki/North_East_Line
     // Coordinates taken from respective Wikipedia MRT pages
+    // More station codes: http://www.skyscrapercity.com/showthread.php?t=1296097
     private static TreeMap<String, MRTStation> mrtStations = new TreeMap<String, MRTStation>() {
         private static final long serialVersionUID = 1L; {
             // Transaction Codes
